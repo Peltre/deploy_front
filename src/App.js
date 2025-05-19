@@ -13,7 +13,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AutoFixHigh } from '@mui/icons-material';
 
 
-const API_URL = "https://deploy-back-bceo.onrender.com/";
+const API_URL = "https://deploy-back-bceo.onrender.com";
 function App() {
     const [items, setItems] = useState([
         { id: 1, name: "item1", price: 10 },
