@@ -13,12 +13,10 @@ const signIn = async (provider, formData) => {
             alert(
                 `Signing in with "${provider.name}" and credentials: ${email}, ${password}`,
             );
-            // preview-start
             resolve({
                 type: 'CredentialsSignin',
                 error: 'Invalid credentials.',
             });
-            // preview-end
         }, 300);
     });
     return promise;
@@ -27,7 +25,6 @@ const signIn = async (provider, formData) => {
 export default function NotificationsSignInPageError() {
     const theme = useTheme();
     return (
-        // preview-start
         <AppProvider theme={theme}>
             <SignInPage
                 signIn={signIn}
@@ -35,7 +32,6 @@ export default function NotificationsSignInPageError() {
                 slotProps={{ emailField: { autoFocus: false } }}
             />
         </AppProvider>
-        // preview-end
     );
 }
 

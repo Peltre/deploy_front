@@ -27,25 +27,25 @@ export default function LandingPage() {
 
 const itemData = [
     {
-        img: 'https://www.nasa.gov/wp-content/uploads/2025/02/49533887268-9d045c7081-o.jpg'
+        img: 'https://assets.pokemon.com/static-assets/content-assets/cms2-es-xl/img/cards/web/SV6PT5/SV6PT5_LA_75.png'
     },
     {
-        img: 'https://www.nasa.gov/wp-content/uploads/2025/02/30dorlarge.jpg'
+        img: 'https://procardsmexico.com.mx/22449-large_default/charizard-ex-fa-alternate-art.jpg'
     },
     {
-        img: 'https://www.nasa.gov/wp-content/uploads/2025/02/pia26427orig.jpg'
+        img: 'https://m.media-amazon.com/images/I/619zzMrelOL.jpg'
     },
     {
-        img: 'https://www.nasa.gov/wp-content/uploads/2025/02/hubble-leda1313424-stsci-01jjadtmj80r1r4w6kk563rw2c.jpg'
+        img: 'https://procardsmexico.com.mx/29127-large_default/greninja-ex-special-illustration-rare.jpg'
     },
     {
-        img: 'https://www.nasa.gov/wp-content/uploads/2025/01/hubble-jupiter-jul22-3-flat-final.jpg'
+        img: 'https://storage.googleapis.com/images.pricecharting.com/82447b5abfdfed9a0ce21f9cf010a8d5a4e5bc63113339f7a5d3fdb1ba6321df/1600.jpg'
     },
     {
-        img: 'https://www.nasa.gov/wp-content/uploads/2024/12/hubble-ngc2566-potw2451a.jpg'
+        img: 'https://tcgplayer-cdn.tcgplayer.com/product/623612_in_400x400.jpg'
     },
     {
-        img: 'https://www.nasa.gov/wp-content/uploads/2024/12/ngc602-5ddbfb.jpg'
+        img: 'https://images-cdn.ubuy.co.in/6350255b2e92ab79ab0f7515-pokemon-mega-rayquaza-ex-98-98.jpg'
     },
 ]
 
