@@ -127,6 +127,10 @@ function App() {
                     <Route path="/login" element={<Login login={login} />} />
                     <Route path="/add" element={<Add add={add} />} />
                     <Route path="/items" element={<List items={items} ondelete={del} />} />
+                    <Route 
+                        path='/items/:id'
+                        element={<ItemInfo items={items}/>}
+                    />
                 </Routes>
                 <Footer />
             </BrowserRouter>
