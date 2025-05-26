@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Footer from "./components/Footer"
 import Button from "./components/Button"
 import List from "./components/List"
@@ -14,11 +14,11 @@ import Button from './components/Button';
 import useCount from './hooks/useCount';
 import useItems from './hooks/useItems';
 import useAuth from './hooks/useAuth';
+import LifeCycle from './components/LifeCycle';
 
 
-const API_URL = "https://deploy-back-bceo.onrender.com";
 function App() {
-
+    const [show, setShow] = useState(false);
     const { count, sum, resta } = useCount();
     const { isLogin, token, login, logout, register } = useAuth();
     const { items, getItems, addItems, delItems } = useItems(token);
@@ -49,10 +49,12 @@ function App() {
                 </Routes>
                 <Footer />
             </BrowserRouter>
+            <button onClick={() => setShow(!show)}>{show ? "hide"  : "show"}</button>
+            {show && <LifeCycle />}
         
             <div> {count} </div>
             <Button name={"suma"} click={sum}/>
-            <Button name={"resta"} click={resta} />
+            <Button name={"resta"} click={resta}/>
             <Footer />
         </div>
     );
